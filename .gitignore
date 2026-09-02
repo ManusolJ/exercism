@@ -1,0 +1,137 @@
+# ---------------------------------------------------------------------------
+# Exercism practice repository
+# ---------------------------------------------------------------------------
+# Covers every track in this repo, including the ones not started yet.
+# Rule of thumb: commit sources, exercise briefs and Exercism metadata;
+# ignore anything a build tool, test runner, package manager or editor
+# regenerates on its own.
+
+
+# --- Work in progress ------------------------------------------------------
+# Exercises still being solved. These do not compile / import yet, so they
+# stay out of the repo until they pass their tests.
+# Delete the matching line once an exercise is finished.
+java/remote-control-competition/
+python/currency-exchange/
+
+
+# --- Python ----------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.python-version
+
+
+# --- Java / Gradle / Maven -------------------------------------------------
+.gradle/
+build/
+bin/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+# ...but keep the Gradle wrapper: it is what makes `./gradlew test` work
+# for anyone who clones this without a matching Gradle install. The leading
+# `**/` matters - each exercise has its own wrapper nested under <track>/<exercise>/,
+# so a root-anchored path would never match.
+!**/gradle/wrapper/gradle-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+
+# --- JavaScript / TypeScript ----------------------------------------------
+node_modules/
+dist/
+coverage/
+.npm/
+.yarn/
+.pnp.*
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# --- PHP -------------------------------------------------------------------
+vendor/
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpunit.cache/
+
+
+# --- C / C++ ---------------------------------------------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.gch
+*.pch
+a.out
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.in
+compile_commands.json
+.cache/
+
+
+# --- SQLite ----------------------------------------------------------------
+# Journal/WAL sidecar files are always transient.
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite-journal
+# Note: databases themselves are NOT ignored, because some SQLite exercises
+# ship a fixture database that the tests need. If a track turns out to
+# generate throwaway .db files instead, uncomment the next line.
+# *.db
+
+
+# --- Editors & IDEs --------------------------------------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+
+# --- OS --------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
