@@ -1,20 +1,3 @@
-# ---------------------------------------------------------------------------
-# Exercism practice repository
-# ---------------------------------------------------------------------------
-# Covers every track in this repo, including the ones not started yet.
-# Rule of thumb: commit sources, exercise briefs and Exercism metadata;
-# ignore anything a build tool, test runner, package manager or editor
-# regenerates on its own.
-
-
-# --- Work in progress ------------------------------------------------------
-# Exercises still being solved. These do not compile / import yet, so they
-# stay out of the repo until they pass their tests.
-# Delete the matching line once an exercise is finished.
-java/remote-control-competition/
-python/currency-exchange/
-
-
 # --- Python ----------------------------------------------------------------
 .venv/
 venv/
