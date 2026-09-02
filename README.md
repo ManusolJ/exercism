@@ -12,23 +12,6 @@ what's here.
 
 Java and Python so far. In the future, I'm planning to start the PHP, JavaScript, TypeScript, SQLITE and C++ tracks too.
 
-**Java**
-
-| Exercise                                           | What it covers                              |
-| -------------------------------------------------- | ------------------------------------------- |
-| [squeaky-clean](java/squeaky-clean/)               | `char` handling, `StringBuilder`            |
-| [need-for-speed](java/need-for-speed/)             | Constructors and static factory methods     |
-| [jedliks-toy-car](java/jedliks-toy-car/)           | Classes and fields                          |
-| [calculator-conundrum](java/calculator-conundrum/) | Exceptions, writing a custom exception type |
-
-**Python**
-
-| Exercise                                                     | What it covers                   |
-| ------------------------------------------------------------ | -------------------------------- |
-| [hello-world](python/hello-world/)                           | Setting up the track             |
-| [guidos-gorgeous-lasagna](python/guidos-gorgeous-lasagna/)   | Functions, constants, docstrings |
-| [ghost-gobble-arcade-game](python/ghost-gobble-arcade-game/) | Booleans                         |
-
 Exercises I haven't finished yet aren't committed.
 
 ## Layout
@@ -50,13 +33,13 @@ Build output and virtual environments aren't tracked. See [`.gitignore`](.gitign
 Java uses the Gradle wrapper, so you don't need Gradle installed:
 
 ```bash
-cd java/squeaky-clean && ./gradlew test
+cd java/<exercise> && ./gradlew test
 ```
 
 Python uses pytest:
 
 ```bash
-cd python/ghost-gobble-arcade-game && python -m pytest
+cd python/<exercise> && python -m pytest
 ```
 
 ## License
